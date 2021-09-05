@@ -1,0 +1,3 @@
+[submodule "pbbs"]
+	path = pbbs
+	url = git@github.com:ckoparkar/pbbs.git

@@ -1,0 +1,11 @@
+(env
+ (_
+  (flags (:standard -w -26 -w -27 -w -33))
+  (ocamlopt_flags -O3)))
+
+(executable
+ (name main)
+ (modules main fib bench bintree kdtree common qsort mergesort bhut coins parse_grammar countnodes
+          compiler checks foldconstants)
+ (libraries domainslib unix sexplib containers)
+ (modes native))
